@@ -31,3 +31,6 @@ function darkMode(){
 	}
 }
 darkMode();
+
+// with code ninja
+function darkMode(){let pth='rgb(160,160,160)';let bdr='rgb(130,130,130)';document.getElementById('documentation').style.background ='black';document.getElementById('main').style.background='black';document.getElementsByTagName('h1')[0].style.color="rgb(180,180,180)";let a=document.getElementsByTagName('p');for(let i=0;i<a.length;i++){a[i].style.color=pth;}let b=document.getElementsByClassName('paragraph');for(let i=0;i<b.length;i++){b[i].style.color=pth;}let c=document.getElementsByTagName('pre');let d=document.getElementsByClassName('highlight');for(let i=0;i<d.length;i++){d[i].style.background='rgb(55,55,55)';c[i].style.border=bdr;}let e=document.getElementsByTagName('code');for(let i=0;i<e.length;i++){e[i].style.background='rgb(55,55,55)';e[i].style.color=pth;e[i].style.border=bdr;}let f=document.getElementsByTagName('h3');for(let i=0;i<f.length;i++){f[i].style.color='red';}}darkMode();
