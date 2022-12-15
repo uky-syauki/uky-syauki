@@ -3,6 +3,7 @@ function darkMode(){
 	let putih = 'rgb(160,160,160)';
 	document.getElementById('documentation').style.background = 'black';
 	document.getElementById('main').style.background = 'black';
+	document.getElementsByTagName('h1')[0].style.color = "rgb(180,180,180)";
 	let a = document.getElementsByTagName('p'); // font
 	for (let isi = 0; isi < a.length; isi++){
 		a[isi].style.color = putih;
