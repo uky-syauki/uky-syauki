@@ -21,6 +21,10 @@ function darkMode(){
 		kunci[isi].style.background = 'rgb(55,55,55)';
 		kunci[isi].style.color = putih;
 	}
+	let pre = document.getElementsByTagName('pre');
+	for (let isi = 0; isi < pre.length; isi++){
+		pre[isi].style.border = 'solid 1px rgb(130,130,130)';
+	}
 	let h3 = document.getElementsByTagName('h3');
 	for (let i = 0; i < h3.length; i++){
 		h3[i].style.color = 'red';
