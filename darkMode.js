@@ -1,6 +1,7 @@
 // for website git-scm.com
 function darkMode(){
 	let putih = 'rgb(160,160,160)';
+	let border = 'rgb(130,130,130)';
 	document.getElementById('documentation').style.background = 'black';
 	document.getElementById('main').style.background = 'black';
 	document.getElementsByTagName('h1')[0].style.color = "rgb(180,180,180)";
@@ -12,18 +13,17 @@ function darkMode(){
 	for (let isi = 0; isi < p.length; isi++){
 		p[isi].style.color = putih;
 	}
+	let pre = document.getElementsByTagName('pre');
 	let ligh = document.getElementsByClassName('highlight');
 	for (let isi = 0; isi < ligh.length; isi++){
 		ligh[isi].style.background = 'rgb(55,55,55)';
+		pre[isi].style.border = border;
 	}
 	let kunci = document.getElementsByTagName('code');
 	for (let isi = 0; isi < kunci.length; isi++){
 		kunci[isi].style.background = 'rgb(55,55,55)';
 		kunci[isi].style.color = putih;
-	}
-	let pre = document.getElementsByTagName('pre');
-	for (let isi = 0; isi < pre.length; isi++){
-		pre[isi].style.border = 'solid 1px rgb(130,130,130)';
+		kunci[isi].style.border = border;
 	}
 	let h3 = document.getElementsByTagName('h3');
 	for (let i = 0; i < h3.length; i++){
