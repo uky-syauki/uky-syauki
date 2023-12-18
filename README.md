@@ -2,7 +2,7 @@
 
 <b>Nama Saya	:</b> <i>Ahmad Syauki</i> </br>
 <b>Study		:</b> <i>STMIK Profesional</i> (Computer Science) </br>
-<b><i>I have Coriocity</i></b> </br>
+<b><i>I have Curiocity</i></b> </br>
 
 
 
