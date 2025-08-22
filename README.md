@@ -11,3 +11,11 @@
 - 👯 I’m looking to collaborate on Opensourced Projects
 - 📫 How to reach me: [Instagram](https://www.instagram.com/_achmadsyauky/)
 
+
+### Github Statistic
+<p align="left">
+<a href="https://github.com/uky-syauki">
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dimasmds&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dimasmds&layout=compact&langs_count=8&theme=algolia"/>
+</a>
+</p>
